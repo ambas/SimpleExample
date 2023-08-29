@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        SimpleExample(title: "Sample", items: [
+        SimpleExampleView(title: "Sample", items: [
             .init(title: "Sample 1", view: SampleContent1()),
             .init(title: "Sample 2", view: SampleContent1())
         ])
